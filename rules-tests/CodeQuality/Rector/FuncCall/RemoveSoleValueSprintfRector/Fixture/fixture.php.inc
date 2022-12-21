@@ -10,6 +10,11 @@ class Fixture
 
         $welcome = 'hello';
         $value = sprintf('%s', $welcome);
+        
+        $amount = sprintf('%s', 1);
+
+        $number = 1;
+        $howMuch = sprintf('%s', $number);
     }
 }
 
@@ -27,6 +32,11 @@ class Fixture
 
         $welcome = 'hello';
         $value = $welcome;
+        
+        $amount = (string) 1;
+
+        $number = 1;
+        $howMuch = (string) $number;
     }
 }
 
